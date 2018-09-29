@@ -1,0 +1,210 @@
+a:visited{
+	color:black;
+}
+
+#web{
+	width: 1000px;
+	margin: 0 auto;
+	/*background-color: skyblue;*/
+}
+
+/*头部set*/
+header
+{
+	/*height: 116px;*/
+	width: 100%;
+	border-top: 24px solid #00b7ee;
+
+}
+nav{
+	height: 116px;
+	/*line-height: 116px;*/
+	/*padding-bottom: 15px;*/
+}
+nav>.logo{
+	width: 121px;
+	height: 63px;
+	margin-left: 73px;
+	margin-top: 38px;
+	/*vertical-align: bottom;*/
+}
+nav>.nav_link{
+	width: 420px;
+	/*height: 34px;*/
+	margin-top: 72px;
+	margin-left: 70px;
+	/*background-color: yellow;*/
+	
+}
+nav>.nav_link>li{
+	font-size: 14px;
+	margin:0 9px;
+} 
+nav a{
+	font-family:regular;
+	color: #000000;
+	
+}
+
+nav>.nav_link>li{
+	
+	float: left;
+}
+
+
+nav .searchBar{
+	margin-top: 70px;
+	margin-right: 76px;
+	width: 216px;
+	height: 30px;
+	border: solid 1px #000000;
+	font-size: 0;
+}
+
+nav .searchBar input[type="search"]{
+	width:174px ;
+	height: 100%;
+	vertical-align: top;
+	border: none;
+	padding-left: 8px;
+}
+nav .searchBar input[type="image"]{
+	
+	width: 40px;
+	height: 100%;
+	vertical-align: top;
+}
+
+
+/*头部end*/
+
+
+/*尾部set*/
+footer{
+	width: 100%;
+	height: 228px;
+	
+}
+
+.footer_info{
+	/*上空35 下空25*/
+	/*左右空余50px*/
+	width: 100% - 100px;
+	margin:60px 0 25px 0;
+	padding-left:50px;
+}
+.navBox{
+	float: left;
+}
+.navBox>a:visited{
+	color: black;
+}
+.navBox>a{
+	background-color: white;
+	display: block;
+}
+
+.navBox a{
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+
+.navBox>a:nth-of-type(1){
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 16px;
+	letter-spacing: 3px;
+}
+
+.navBox:nth-of-type(1){
+	margin-right: 55px;
+	
+}
+.navBox:nth-of-type(2){
+	margin-right: 108px;
+	
+}
+.navBox:nth-of-type(3){
+	margin-right: 55px;
+	
+}
+.navBox:nth-of-type(4){
+	margin-right: 63px;
+	
+}
+
+.contactInfo{
+	background-color: white;
+	vertical-align: top;
+	
+	
+}
+.topInfo{
+	font-size:0;
+	/*height: 50px;*/
+	/*width: 280px;*/
+}
+.topInfo>span{
+	display: inline-block;
+}
+.telBigNum{
+	margin-left: 8px;
+	font-size: 15px;
+	font-weight: bold;
+ 	vertical-align: top; 
+ 	width: 113px;
+ 	/*line-height: 25px;*/
+}
+.telBigNum>span{
+	letter-spacing: 3px;
+}
+.telsNum{
+	text-align: right;
+	font-size: 10px;
+	vertical-align: top;
+}
+.elink{
+	margin-left: 51px;
+}
+.elink span{
+	font-size: 10px;
+	margin-right: 50px;
+}
+
+.bottomInfo{
+	font-size: 0;
+}
+.bottomInfo>span{
+	margin-left: 15px;
+	vertical-align: bottom;
+	font-size: 16px;
+	font-weight:bold;
+
+}
+.copyright{
+	box-sizing: border-box;
+	width: 100%;
+	height: 70px;
+	padding-top: 43px;
+	padding-bottom: 15px;
+	background-color:#6db6ff;
+	font-size: 12px;
+	text-align: center;
+}
+/*
+.copyright>span{
+	width: 100%;
+	position: relative;
+	display: block;
+	
+	margin: 0 auto;
+	
+}
+
+
+*/
+
+
+
+/*尾部end*/

@@ -1,0 +1,84 @@
+#login{
+	width: 1000px;
+	height: 380px;
+	background-color: #fefefe;
+}
+.loginHead{
+	display: block;
+	margin: 50px auto 60px;
+	text-align: center;
+	width: 130px;
+	position: relative;
+}
+.loginHead:before,.loginHead:after{
+	content: "";
+	display: block;
+	border: 1px solid #9ac1c0;
+	width: 100px;
+	margin: 0 auto;
+	position: absolute;
+}
+.loginHead:before{
+	left: -90%;
+	bottom: 50%;
+}
+.loginHead:after{
+	right: -90%;
+	bottom: 50%;
+}
+
+.headWord{
+	font-size: 10px;
+	font-family: Arial;
+	font-weight: bold;
+	letter-spacing: -1px;
+	
+}
+.headWord:first-of-type{
+	font-size: 18px;
+	font-family: MicrosoftYaHei;
+	font-weight: bold;
+	letter-spacing: 9px;
+}
+
+.contentBox{
+	width: 760px;
+	height: 260px;
+	margin: 0 auto;
+	
+}
+.loginBox{
+	width: 370px;
+	height: 100%;
+	background-color: yellow;
+	vertical-align: top;
+}
+.imgBox{
+	width: 350px;
+	height: 100%;
+	background-color: red;
+}
+.lrButtonGroup{
+	margin: 0 auto;
+	text-align: center;
+	background-color: darkslategray;
+}
+.loginButton{
+	width: 92px;
+	height: 20px;
+	background-color: #b3d9ff;
+	border-radius: 2px;
+	margin-right: 3px;
+}
+
+
+.registerButton{
+	width: 92px;
+	height: 20px;
+	background-color: #eee;
+	border-radius: 2px;
+	margin-left: 3px;
+}
+table td{
+	width: 55px;
+}
