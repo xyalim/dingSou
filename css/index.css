@@ -132,6 +132,7 @@
 	line-height: 26px;
 	font-size: 16px;
 	font-weight: bold;
+	color: white;
 }
 .checkMe>a:visited{
 	color: white;
@@ -201,3 +202,4 @@
 }
 
 /*section id="link" 友情链接end*/
+

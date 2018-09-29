@@ -1,6 +1,9 @@
 a:visited{
 	color:black;
 }
+a{
+	color:black;
+}
 
 #web{
 	width: 1000px;

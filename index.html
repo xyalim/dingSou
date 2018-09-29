@@ -203,7 +203,11 @@
 					<div class="blackBanner">
 						<div class="linkTitle">
 							<fieldset>
-								<legend>友情链接</legend>
+								<!--legend在IE firefox中css的text-align:center 
+									无法正常使文字居中 在chrome表现正常
+									而 align="center"写法可以兼容IE firefox
+								-->
+								<legend align="center">友情链接</legend>
 								LINK
 							</fieldset>
 						</div>
