@@ -1,3 +1,4 @@
+/*项目公共类*/
 a:visited{
 	color:black;
 }
@@ -10,6 +11,8 @@ a{
 	margin: 0 auto;
 	/*background-color: skyblue;*/
 }
+
+
 
 /*头部set*/
 header
@@ -86,7 +89,7 @@ nav .searchBar input[type="image"]{
 footer{
 	width: 100%;
 	height: 228px;
-	
+	border-top:1px solid #cce6ff;
 }
 
 .footer_info{
@@ -211,3 +214,147 @@ footer{
 
 
 /*尾部end*/
+
+
+
+/*我要转出set*/
+.leftHead{
+	display: block;
+	margin: 50px auto 60px;
+	text-align: center;
+	width: 130px;
+	position: relative;
+}
+.leftHead:before,.leftHead:after{
+	content: "";
+	display: block;
+	border: 1px solid #9ac1c0;
+	width: 100px;
+	margin: 0 auto;
+	position: absolute;
+}
+.leftHead:before{
+	left: -90%;
+	bottom: 50%;
+}
+.leftHead:after{
+	right: -90%;
+	bottom: 50%;
+}
+
+.headWord{
+	font-size: 10px;
+	font-family: Arial;
+	font-weight: bold;
+	letter-spacing: -1px;
+	
+}
+.headWord:first-of-type{
+	font-size: 18px;
+	font-family: MicrosoftYaHei;
+	font-weight: bold;
+	letter-spacing: 9px;
+}
+/*我要转出end*/
+
+/*三角 梯形绘制 set*/
+.smallicon{
+	width: 80px;
+	height:30px;
+	/*margin: 50px;*/
+}
+
+.smalltri{
+	/*width: 80px;*/
+	/*height:30px;*/
+	/*margin: 50px;*/
+}
+
+.lefttri{
+	border-top: 35px solid white;
+	/*border-right: 50px solid red;*/
+	border-left: 15px solid #6db6ff;
+	/*border-bottom: 30px solid white;*/
+}
+
+.righttri{
+	border-top: 35px solid white;
+	border-right: 15px solid #6db6ff;
+	/*border-left: 15px solid red;*/
+	/*border-bottom: 30px solid white;*/
+}
+
+
+.leftDowntri{
+	/*border-top: 35px solid white;*/
+	/*border-right: 15px solid #6db6ff;*/
+	border-left: 15px solid #6db6ff;
+	border-bottom: 30px solid white;
+}
+
+.rightDowntri{
+	/*border-top: 35px solid white;*/
+	border-right: 15px solid #6db6ff;
+	/*border-left: 15px solid red;*/
+	border-bottom: 30px solid white;
+}
+
+/*三角 梯形绘制 end*/
+
+/*三角形排列mode2set*/
+.trimode2{
+	text-align: center;
+	border-top: 0px;
+	border-bottom: 1px solid #6db6ff;
+}
+.trimode2 .lefttri,.desBoxfun2 .desBoxTitle .righttri{
+	position: absolute;
+	bottom: 0;
+}
+.trimode2 .lefttri{
+	left:0 ;
+}
+.trimode2 .righttri{
+	right:0 ;
+}
+
+/*三角形排列mode2end*/
+
+
+/*内容索引set*/
+#contentIndex{
+	width: 900px;
+	margin: 50px auto 25px;
+	/*background-color: yellow;*/
+	border-top:1px solid #6dbdff ;
+}
+/*内容索引end*/
+
+
+/*当前位置set*/
+.hearIcon{
+	
+	border-top: 30px solid #6db6ff;
+	border-right: 15px solid white;
+	font-size: 16px;
+	position: relative;
+}
+.text{
+	position: absolute;
+	left: 2px;
+	top:-24px;
+	width: 70px;
+	color: white;
+}
+
+
+.textIndex{
+	height: 30px;
+}
+.textIndex li{
+	line-height: 33px;
+	height: 30px;
+	font-size: 17px;
+	float: left;
+}
+/*当前位置end*/

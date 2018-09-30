@@ -23,11 +23,11 @@
 					
 					<ul class="nav_link fl">
 						<li><a href="index.html">首页</a></li>
-						<li><a href="">关于鼎搜</a></li>
-						<li><a href="">鼎搜服务</a></li>
-						<li><a href="">鼎搜动态</a></li>
-						<li><a href="">鼎搜诚聘</a></li>
-						<li><a href="">鼎搜公益</a></li>
+						<li><a href="detail.html">关于鼎搜</a></li>
+						<li><a href="list.html">鼎搜服务</a></li>
+						<li><a href="detail.html">鼎搜动态</a></li>
+						<li><a href="detail.html">鼎搜诚聘</a></li>
+						<li><a href="detail.html">鼎搜公益</a></li>
 					</ul>
 					
 					<!--搜索栏-->
@@ -50,77 +50,61 @@
 			
 			<!--登录表set-->
 			<section id="login">
-				
-				<div class="loginHead">
+				<!--我要转让set-->
+				<div class="leftHead">
 					<p class="headWord">我要转让</p>
 					<p class="headWord">
 						WO YAO ZHUAN RANG
 					</p>
 				</div>
-				<!--
-				<div class="contentBox">
-					<div class="loginBox iBlock">
-						<div class="lrButtonGroup iBlock">
-							<div class="loginButton iBlock">
-								<a>点击登录</a>
-							</div>
-							<div class="registerButton iBlock">
-								<a>点击注册</a>
-							</div>
-						</div>
-					</div>
-					<div class="imgBox iBlock">
-						
-					</div>
-				</div>
-				-->
-				
-				
-				
-				<!--
-		<div class="boxBig">
-		 	 <div class="boxLeft">
-		 	 	<div class="boxGroup">
-		 	 		<div class="small1">
-		 	 		<a>点击登录</a>
-		 	 		</div>
-			 	 	<div class="small2">
-			 	 		<a>点击注册</a>
-			 	 	</div>
-		 	 	</div>
-		 	 	
-		 	 </div>
-		 	  <div class="boxRight"></div>
-		 	
-		 </div>
-				-->
+				<!--我要转让end-->
 				
 			<div class="contentBox">
 				
 					<div class="loginBox iBlock">
 						
-						<form action="" method="post">
-							
+						<form action="" method="post">						
 							<div class="lrButtonGroup">
-								<div class="loginButton iBlock">
-									<a>点击登录</a>
+								<div class="leftButton iBlock">
+									<a href="login.html">点击登录</a>
 								</div>
-								<div class="registerButton iBlock">
-									<a>点击注册</a>
+								<div class="rightButton iBlock">
+									<a href="register.html">点击注册</a>
 								</div>
 							</div>
-							
-							<table border="" cellspacing="" cellpadding="" >
-								
+							<table border="0">	
 								<tr>
-									<td><span class="inputDes">
-									用户名：
-									</span></td>
-									<td colspan="5"> <input type="text" name="username" id="username" value="" /> </td>
-								</tr>
+									<td  class="inputInfo" >用户名：</td>
+									<td colspan="3" class="inputCellSize"> <input  class="inputSpace" type="text" name="info" id="username" value=""/> </td>
+								</tr>				
+								<tr>
+									<td  class="inputInfo" >密码：</td>
+									<td colspan="3"  class="inputCellSize"> <input  class="inputSpace" type="password" name="info" id="userpassword" value=""/> </td>
+								</tr>	
+								<tr>
+									<td  class="inputInfo" >验证码：</td>						
+									<td  class="inputVerify"> <input  class="inputVerifySpace"  type="text" name="" id="yzm" value="" /> </td>
+									<td  class="verifyImg"><img src="img/loginVerify.png"/>  <span class="verifyChange">看不清？ <a href="">点击更换</a> </span></td>
+									<!--<td  class="verifyChange"><span >看不清？ <a href="">点击更换</a> </span></td>-->
+								</tr>	
+								<tr>
+									<td  class="inputInfo" >有效期：</td>													
+									<td  class="radiosGroup" colspan="3"> 
+										<input type="radio" name="time" id="month" value="" /><label for="month">一个月</label>
+										<input type="radio" name="time" id="week" value="" /><label for="week">一周</label> 
+										<input type="radio" name="time" id="day" value="" /><label for="day">一天</label>
+										<input type="radio" name="time" id="now" value="" /><label  for="now">即时</label></td>									
+								</tr>						
 							</table>
 							
-						
+							<div class="lrButtonGroup">
+								<div class="leftButton iBlock loginBtn">
+									<a href="login.html">登录</a>
+								</div>
+								<div class="rightButton iBlock forgetPawBtn">
+									<a href="login.html">忘记密码?</a>
+								</div>
+							</div>
 						</form>
 					</div>
 					
@@ -130,7 +114,7 @@
 				
 					
 					<div class="imgBox iBlock">
-						
+						<img src="img/detail3.png"/>
 					</div>
 			</div>
 	
@@ -146,29 +130,29 @@
 			<footer>
 				<div class="footer_info clearfix">
 					<div class="navBox">
-						<a href="">简介</a>
-						<a href="">鼎搜网简介</a>
-						<a href="">鼎搜服务</a>
+						<a href="index.html">简介</a>
+						<a href="detail.html">鼎搜网简介</a>
+						<a href="detail.html">鼎搜服务</a>
 						<a href="login.html">会员身份实名认证</a>
 					</div>
 					
 					<div class="navBox">
-						<a href="">帮助</a>
-						<a href="">用户注册</a>
-						<a href="">关于鼎搜</a>
-						<a href="">在线咨询</a>
+						<a href="detail.html">帮助</a>
+						<a href="register.html">用户注册</a>
+						<a href="detail.html">关于鼎搜</a>
+						<a href="detail.html">在线咨询</a>
 					</div>
 					<div class="navBox">
-						<a href="">共赢</a>
-						<a href="">网站合作</a>
-						<a href="">用户协议</a>
+						<a href="detail.html">共赢</a>
+						<a href="detail.html">网站合作</a>
+						<a href="detail.html">用户协议</a>
 						<a href="login.html">会员身份实名认证</a>
 					</div>
 					<div class="navBox">
-						<a href="">导航</a>
-						<a href="">地图首页</a>
-						<a href="">职能分类</a>
-						<a href="">企业名录</a>
+						<a href="detail.html">导航</a>
+						<a href="detail.html">地图首页</a>
+						<a href="detail.html">职能分类</a>
+						<a href="detail.html">企业名录</a>
 					</div>
 					<div class="contactInfo fl">
 						<div class="topInfo">

@@ -1,0 +1,133 @@
+#contentList{
+	width: 900px;
+	/*height: 630px;*/
+	margin: 0 auto;
+	background-color: #fafafa;
+	border-top: 1px solid #b6daff;
+	border-bottom: 1px solid #b6daff;
+}
+
+
+.deIcon{
+	/*width: 40px;*/
+}
+
+.arrRules li{
+	float: left;
+	height: 42px;
+	line-height: 36px;
+	font-size: 12px;
+	margin: 0 2px;
+}
+.arrRules .rulesDes{
+	font-size: 16px;
+	margin-left: 10px;
+}
+.arrRules .allType a{
+	font-size: 14px;
+	color: #6db6ff;
+}
+.detailsGroup{
+	margin-top: 40px;
+}
+.detailIndex{
+	margin: 7px 0;
+}
+
+
+/*列表样式set*/
+
+.listTitle{
+	width: 750px;
+	height: 35px;
+	margin: -1px auto 0;
+	background-color: white;
+	border-bottom: 1px solid #b6daff;
+	border-left: 1px solid #b6daff;
+	border-right: 1px solid #b6daff;
+}
+
+.titleName{
+	/*background-color: yellow;*/
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+.nameBlock{
+	width: 18%;
+	height: 100%;
+	/*line-height: 100%;*/
+	vertical-align: bottom;
+	line-height: 35px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	/*border-left: 1px solid black;
+	border-right: 1px solid black;*/
+}
+
+.listContent{
+	width: 750px;
+	height: 540px;
+	margin: 0 auto;
+}
+table tr{
+	
+}
+table td{
+	padding: 10px 0;
+	text-align: center;
+	font-size: 12px;
+}
+
+.projectName{
+	/*width: 15%;*/
+	width: 168px;
+}
+.area{
+	/*width: 10%;*/
+	width: 111px;
+}
+.job{
+	/*width: 9%;*/
+	width: 179px;
+}
+.type{
+	/*width: 10%;*/
+	width: 107px;
+}
+.time{
+	/*width: 10%;*/
+	width: 175px;
+}
+
+/*列表样式end*/
+
+/*分页样式set*/
+.pageNumGroup{
+	width: 222px;
+	height: 20px;
+	font-size: 12px;
+	text-align: center;
+	margin: 20px auto;
+	/*background-color: yellow;*/
+}
+.pageNumGroup a{
+	background-color: #e5e5e5;
+	float: left;
+	margin-right: 6px;
+	display: inline-block;
+	
+}
+.pageBtn{
+	width: 45px;
+}
+.pageNum{
+	width: 18px;
+}
+.pageNum:nth-of-type(2){
+	background-color: #6db6ff;
+}
+
+
+/*分页样式end*/

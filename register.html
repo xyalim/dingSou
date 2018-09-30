@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>注册页</title>
+		<!--先设置重置样式-->
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<!--后设置公共样式-->
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<!--再设置页面样式-->
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	</head>
+	<body>
+		<div id="web">
+			<!--头部set-->
+			<header>
+				
+				<!--导航-->
+				<nav class="clearfix">
+					<div class="logo fl">
+						<img src="img/logo.png" alt=""/>
+					</div>
+					
+					<ul class="nav_link fl">
+						<li><a href="index.html">首页</a></li>
+						<li><a href="detail.html">关于鼎搜</a></li>
+						<li><a href="list.html">鼎搜服务</a></li>
+						<li><a href="detail.html">鼎搜动态</a></li>
+						<li><a href="detail.html">鼎搜诚聘</a></li>
+						<li><a href="detail.html">鼎搜公益</a></li>
+					</ul>
+					
+					<!--搜索栏-->
+					<div class="searchBar fr">
+						<input type="search" />
+						<input type="image" src="img/Magnifier.png" alt="搜索"/>
+						
+					</div>
+				
+				</nav>
+				
+				
+				<!--轮播图-->
+				<div class="kv">
+					<img src="img/bigbanner.png"/>
+				</div>
+			</header>
+			<!--头部end-->
+			
+			
+			<!--注册set-->
+			<section id="register">
+				<!--我要转让set-->
+				<div class="leftHead">
+					<p class="headWord">我要转让</p>
+					<p class="headWord">
+						WO YAO ZHUAN RANG
+					</p>
+				</div>
+				<!--我要转让end-->
+				
+				<div class="titleTips">
+						(带 * 号的表示为必填项目，用户名必须大于3位小于20位，密码必须大于3位)
+				</div>
+				
+				
+				<div class="regContent">
+					
+					<form action="" method="post">
+					<table class="regTable" border="0" cellspacing="" cellpadding="">
+						<tr>
+							<td class="regInfo">用户名：</td>
+							<td class="regInput"><input type="text" name="" id="" value="" /></td>
+							<td class="tips"><span class="redStar"> * </span><span class="tipsDes">(可以使用中文，但禁止除[@][.]以外的特殊符号)</span></td>
+						</tr>
+						
+						<tr>
+							<td class="regInfo">公司名称：</td>
+							<td class="regInput"><input type="text" name="" id="" value="" /></td>
+							<td class="tips"><span class="redStar"> * </span></td>
+						</tr>
+						
+						<tr>
+							<td class="regInfo">登陆密码：</td>
+							<td class="regInput"><input type="text" name="" id="" value="" /></td>
+							<td class="tips"><span class="redStar"> * </span></td>
+						</tr>
+						
+						<tr>
+							<td class="regInfo">确认密码：</td>
+							<td class="regInput"><input type="text" name="" id="" value="" /></td>
+							<td class="tips"><span class="redStar"> * </span><span class="tipsWorn">×两次输入密码不一致</span></td>
+						</tr>
+						
+						<tr>
+							<td class="regInfo">电子邮箱：</td>
+							<td class="regInput"><input type="text" name="" id="" value="" /></td>
+							<td class="tips"><span class="redStar"> * </span><span class="tipsDes">(每个电子邮邮箱只能注册一个帐号)</span></td>
+						</tr>
+						
+						<tr>
+							<td class="regInfo">安全问题：</td>
+							<td class="regInput" colspan="2">
+								<select name=""  disabled="disabled">
+									<option value="没安全提示问题">没安全提示问题</option>
+								</select>
+								<span class="tipsDes">(忘记密码时重设密码用)</span>
+							</td>
+							<!--<td class="tips"></td>-->
+						</tr>
+						
+						<tr>
+							<td class="regInfo">问题答案：</td>
+							<td class="regInput"><input type="text" name="" id="" value="" /></td>
+							<!--<td class="tips"><span class="redStar"> * </span><span class="tipsDes">(可以使用中文，但禁止除[@][.]以外的特殊符号)</span></td>-->
+						</tr>
+						
+						<tr>
+							<td class="regInfo">性别：</td>
+							<td class="regInput" colspan="2"> 	
+								<input type="radio" name="sex" id="man" value="" /><labe for="man">男</labe>
+								<input type="radio" name="sex" id="female" value="" /><labe for="female">女</labe>
+								<input type="radio" name="sex" id="secrecy" value="" /><labe for="secrecy">保密</labe>
+							</td>
+							<!--<td class="tips"><span class="redStar"> * </span><span class="tipsDes">(可以使用中文，但禁止除[@][.]以外的特殊符号)</span></td>-->
+						</tr>
+						
+						<tr>
+									<td  class="regInfo" >验证码：</td>						
+									<td  class="inputVerify" colspan="2">
+										<input  class="inputVerifySpace"  type="text" name="" id="yzm" value="" /> 
+										<img src="img/loginVerify.png"/>  <span class="verifyChange">看不清？ <a href="">点击更换</a> </span>
+									</td>
+									<!--<td  class="verifyImg">
+										
+									</td>-->
+									<!--<td  class="verifyChange"><span >看不清？ <a href="">点击更换</a> </span></td>-->
+						</tr>
+						
+						<!--
+						<tr>
+							<td class="regInfo">验证码：</td>
+							<td class="regInput"><input type="text" name="" id="" value="" /></td>
+							<td class="tips"><span class="redStar"> * </span><span class="tipsDes">(可以使用中文，但禁止除[@][.]以外的特殊符号)</span></td>
+						</tr>
+						-->
+
+						<tr>
+							<td class="regInfo regRules">会员注册协议：</td>
+							<!--<td class="regInput"><input type="text" name="" id="" value="" /></td>-->
+							<td class="tips" colspan="2">
+								<span class="tipsDes rulesDes">
+									1、在本站注册的会员，必须遵守《互联网电子公告服务管理规定》，不得在本站发表诽谤他人，侵犯他人隐私，侵犯他人知识产权，传播病毒，政治言论，商业讯息等信息。<br />
+									2、在所有在本站发表的文章，本站都具有最终编辑权，并且保留用于印刷或向第三方发表的权利，如果你的资料不齐全，我们将有权不作任何通知使用你在本站发布的作品。<br />
+									3、在登记过程中，您将选择注册名和密码。注册名的选择应遵守法律法规及社会公德。您必须对您的密码保密，您将对您注册名和密码下发生的所有活动承担责任。<br />
+								</span>
+								<div class="agree">
+									<input type="checkbox" name="" id="" value="" />
+									<span>我已阅读并完全接受服务协议</span>
+								</div>
+							</td>
+						</tr>
+						
+						<tr>
+							<td colspan="3"><input type="submit" name="" id="" value="注册" class="regButton"/></td>
+						</tr>
+					</table>
+					
+				
+						
+			
+				
+				</form>
+					
+				</div>
+				
+				
+				
+				
+				
+			</section>
+			<!--注册end-->
+			
+			
+			
+			<!--尾部set-->
+			<footer>
+				<div class="footer_info clearfix">
+					<div class="navBox">
+						<a href="index.html">简介</a>
+						<a href="detail.html">鼎搜网简介</a>
+						<a href="detail.html">鼎搜服务</a>
+						<a href="login.html">会员身份实名认证</a>
+					</div>
+					
+					<div class="navBox">
+						<a href="detail.html">帮助</a>
+						<a href="register.html">用户注册</a>
+						<a href="detail.html">关于鼎搜</a>
+						<a href="detail.html">在线咨询</a>
+					</div>
+					<div class="navBox">
+						<a href="detail.html">共赢</a>
+						<a href="detail.html">网站合作</a>
+						<a href="detail.html">用户协议</a>
+						<a href="login.html">会员身份实名认证</a>
+					</div>
+					<div class="navBox">
+						<a href="detail.html">导航</a>
+						<a href="detail.html">地图首页</a>
+						<a href="detail.html">职能分类</a>
+						<a href="detail.html">企业名录</a>
+					</div>
+					<div class="contactInfo fl">
+						<div class="topInfo">
+							<img src="img/telphone.png"/>
+							<span class="telBigNum">
+								<span>全国服务热线</span><br />
+								440-880-1779
+							</span>
+							<span class="telsNum">
+							投诉电话&nbsp;&nbsp;：4408801779<br />
+							周一至周六 ：9:20-20:00
+							</span>
+							<div class="elink">
+								<span class="">邮箱:dinsoo@163.com</span>
+								<img class="" src="img/follow.png"/>
+							</div>
+						
+						</div>
+						
+						<div class="bottomInfo">
+							<img src="img/QRcode2.png"/>
+							<span>订阅信息</span>
+						</div>		
+					</div>
+					
+					
+				</div>
+				<div class="copyright">
+					<!--<span>-->
+						Copyright ©2015 鼎搜网(www.dinsoo.com) 版权所有
+					<!--</span>-->
+				</div>
+				
+			</footer>
+			<!--尾部end-->
+		</div>
+		
+		
+	</body>
+</html>
