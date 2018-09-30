@@ -15,9 +15,12 @@
 
 #### 使用说明
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. index.html     首页
+2. register.html  注册页  
+3. login.html     登陆页
+4. detail.html    详细页
+5. list.html      列表页
+6. common.html     公共页（公共头部尾部）
 
 #### 参与贡献
 
